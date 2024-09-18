@@ -1,0 +1,42 @@
+@RELATION carros
+
+@ATTRIBUTE marca {Fiat, Volkswagen, Ford, Chevrolet, Honda, BMW, Mercedes, Audi, Porsche, Jaguar}
+@ATTRIBUTE modelo {Uno, Gol, Ka, Onix, Civic, 320i, A4, C-Class, 911, F-Type}
+@ATTRIBUTE ano NUMERIC
+@ATTRIBUTE quilometragem NUMERIC
+@ATTRIBUTE valor NUMERIC
+@ATTRIBUTE resultado {popular, luxo}
+
+@DATA
+Fiat,Uno,2015,50000,30000,popular
+BMW,320i,2020,15000,100000,luxo
+Volkswagen,Gol,2018,30000,35000,popular
+Mercedes,C-Class,2021,5000,120000,luxo
+Ford,Ka,2017,40000,28000,popular
+Audi,A4,2019,20000,110000,luxo
+Chevrolet,Onix,2019,20000,40000,popular
+Porsche,911,2018,10000,250000,luxo
+Honda,Civic,2020,10000,50000,popular
+Jaguar,F-Type,2019,15000,200000,luxo
+Fiat,Uno,2012,70000,25000,popular
+BMW,320i,2017,30000,90000,luxo
+Volkswagen,Gol,2016,60000,32000,popular
+Mercedes,C-Class,2019,25000,95000,luxo
+Ford,Ka,2018,35000,29000,popular
+Audi,A4,2018,35000,100000,luxo
+Chevrolet,Onix,2017,45000,38000,popular
+Porsche,911,2017,20000,230000,luxo
+Honda,Civic,2018,20000,49000,popular
+Jaguar,F-Type,2018,20000,210000,luxo
+Chevrolet,Onix,2021,10000,45000,popular
+Audi,A4,2020,10000,115000,luxo
+Fiat,Uno,2019,15000,31000,popular
+BMW,320i,2018,25000,95000,luxo
+Volkswagen,Gol,2020,5000,37000,popular
+Mercedes,C-Class,2017,45000,89000,luxo
+Ford,Ka,2016,55000,27000,popular
+Porsche,911,2019,12000,240000,luxo
+Honda,Civic,2016,60000,48000,popular
+Jaguar,F-Type,2020,8000,220000,luxo
+Fiat,Uno,2014,80000,23000,popular
+Volkswagen,Gol,2015,90000,30000,popular
